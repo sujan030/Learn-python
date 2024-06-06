@@ -35,12 +35,22 @@
 #     print(x)
 
 # fibonnacci series
-a = 0
-b = 1
-print(a)
-print(b)
-for i in range(1,10):
-     c = a + b
-     print(c)
-     a = b
-     b = c
+# a = 0
+# b = 1
+# print(a)
+# print(b)
+# for i in range(1,10):
+#      c = a + b
+#      print(c)
+#      a = b
+#      b = c
+
+#arbitary argument
+def subject(*sub):
+    print(sub)
+fab = ["history","socioscience","python"]
+subject(fab,"science","hindi")
+def name(**nam):
+  
+     print(nam['first_name'])
+name(first_name="sujan",last_name="simkhada")

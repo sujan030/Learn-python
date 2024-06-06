@@ -26,9 +26,21 @@
 #         break
 
 # #for loop
-list1 = [1,2,3,6,7,8,9]
-for i in list1 :
-    if i % 2 != 0 :
-        print(i)
+# list1 = [1,2,3,6,7,8,9]
+# for i in list1 :
+#     if i % 2 != 0 :
+#         print(i)
 
+# for x in range(1,10):
+#     print(x)
 
+# fibonnacci series
+a = 0
+b = 1
+print(a)
+print(b)
+for i in range(1,10):
+     c = a + b
+     print(c)
+     a = b
+     b = c

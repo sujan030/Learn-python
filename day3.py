@@ -45,12 +45,27 @@
 #      a = b
 #      b = c
 
-#arbitary argument
-def subject(*sub):
-    print(sub)
-fab = ["history","socioscience","python"]
-subject(fab,"science","hindi")
-def name(**nam):
+# #arbitary argument
+# def subject(*sub):
+#     print(sub)
+# fab = ["history","socioscience","python"]
+# subject(fab,"science","hindi")
+# def name(**nam):
   
-     print(nam['first_name'])
-name(first_name="sujan",last_name="simkhada")
+#      print(nam['first_name'])
+# name(first_name="sujan",last_name="simkhada")
+
+#lists
+list1 = [1,2,3,4,5,6,7]
+
+print(list1[0])
+if 1 in list1:
+    print("yes")
+
+list1[1:2] = [200,300]
+print(list1)
+list2 = [10,20,30,40,50,60,70]
+print(list2)
+
+list1.extend(list2)
+ 

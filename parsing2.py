@@ -3,7 +3,7 @@
 
 dict1 ={}
 def parse_paragraph():
-    text_file = open("Users\acer\Desktop\read.txt", "r")
+    text_file = open("C:\\Users\\acer\\Desktop\\read.txt", "r")
     paragraph = text_file.read()
     words = paragraph.split()
     unique_words = set(words)
